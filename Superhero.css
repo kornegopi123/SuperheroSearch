@@ -1,0 +1,125 @@
+*{
+    font-family: monospace;  
+    border-radius: 5px;
+}
+
+#content {
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+#searchInput {
+    padding: 10px;
+    height: 4%;
+    min-width: 78%;
+    width: auto;
+    font-size: 15px;
+    border: 2px solid black;
+    transition: all 0.5s ease;
+}
+
+#searchInput:hover {
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#searchButton {
+    height: 40px;
+    min-width: 5%;
+    padding: 5px;
+    font-size: 15px;
+    background-color: #4CAF50;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+#searchButton:hover {
+    background-color: #d9534f;
+}
+
+.superhero {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 2px 2px rgb(0,0,0,0.2);
+    max-width: 90%;
+    border: 1 solid rgb(56, 55, 55);
+    padding-left: 5px;
+}
+/* .superhero:hover{
+    box-shadow: 2px 2px#0d00ff;
+    transition: all 0s ease-in;
+} */
+
+img {
+    width: 30%;
+    height: 30%;
+    border-radius: 5%;
+}
+image{
+    width: 50%;
+    height: 30%;
+}
+.image-but{
+    width: 40%;
+    height: 30%;
+    border-radius: 10%;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.add-fav{
+    color: white;
+    background-color: grey;
+    font-size:medium;
+}
+.faItem{
+    max-width: 87%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 2px 2px rgb(0,0,0,0.2);
+    border: 1 solid rgb(56, 55, 55);
+}
+.more-info{
+    color: white;
+    margin-bottom: 10px;
+    background-color: grey;
+    font-size: small;
+}
+.remove-btn{
+    color: white;
+    background-color: grey;
+    font-size: small;
+}
+.remove-btn:hover{
+    color: white;
+    background-color: red;
+    font-size: small;
+}
+
+h3 {
+    color: #0d00ff;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+    font-family: monospace;
+    color: #ff0033;
+    font-size: 20px;
+
+}
+
+h4 {
+    color: #8b4513;
+    font-size: 20px;
+    margin-top: 10px;
+}
